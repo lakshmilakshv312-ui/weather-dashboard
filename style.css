@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-card {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.forecast-card {
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
